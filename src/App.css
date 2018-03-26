@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.Arrow {
+  height: 20px;
+}
+
+.Refresh {
+  height: 60px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 25%;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.9em;
+  font-family: 'Lobster', Georgia, Times, serif;
+  line-height: 25px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.mybutton {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  vertical-align: middle;
+}
+
+.mybutton:hover {background-color: #3e8e41}
